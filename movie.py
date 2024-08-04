@@ -6,8 +6,8 @@ import numpy as np
 from surprise import Dataset, Reader, SVD, accuracy
 from surprise.model_selection import train_test_split
 
-# Load the MovieLens dataset
-movies_path = 'path_to/movies.csv'
+# Load the MovieLens dataset, replace "path_to" with your path to the dataset 
+movies_path = 'path_to/movies.csv' 
 ratings_path = 'path_to/ratings.csv'
 
 # Read movies and ratings data
